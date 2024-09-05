@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SMK Yasbam</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("ybm.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="https://docs.google.com/forms/d/1jC2kzCBTPJGnPW-bfruTDYS9YQ3C2wAqfeBs0xFSM78/viewform?edit_requested=true" class="w3-button w3-block w3-black">DAFTAR</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="https://maps.app.goo.gl/qLCiVG49R4NeKKiq5" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Birrul Walidain!</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">SMK YASBAM</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Jl. Raya HE Sukma Bakomsari No. 91 Bogor Selatan Kota Bogor, Jawa Barat</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tentang SMK YASBAM</span></h5>
+    <p>SMK Yasbam adalah sekolah yang sangat peduli dengan pendidikan akademik dan juga nilai-nilai adab dan akhlak. Kami sangat berkomitmen untuk memberikan pendidikan yang menyeluruh dan mendalam tentang wawasan keislaman kepada seluruh siswa-siswi kami. Kami percaya bahwa lulusan SMK Yasbam tidak hanya pintar secara akademik, tetapi juga memiliki akhlak yang unggul, kuat dalam keimanannya, dan memiliki keinginan untuk berkontribusi secara aktif dalam masyarakat.</p>
+	<div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Mandiri, Religius, Berakhlaqul Karimah, Birrul Walidain untuk kehidupan yang berkah"</i></p>
+
+      <p>Smk Yasbam.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">KOMPETENSI KEAHLIAN</span></h5>
+<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>TEKNIK KOMPUTER DAN JARINGAN</p>
+        <img src="tkj.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>OTOMISASI TATA KELOLA DAN PERKANTORAN</p>
+        <img src="otkp.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>TEKNIK BISNIS DAN SEPEDA MOTOR</p>
+        <img src="tsm.png" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Visi Misi</span></h5>
+    <p><span class="w3-tag">Visi Misi</span> Kami Adalah MEMPERSIAPKAN TENAGA KERJA BIDANG INFORMATIKA YANG CERDAS, RELIGIUS, KOMPETEN, MANDIRI SERTA BERAKHLAKUL KARIMAH SERTA MENCIPTAKAN TENAGA KERJA YANG BERTAQWA, BERKUALITAS, PROFESIONAL, MANDIRI SEHINGGA MAMPU BERPERAN AKTIF SEBAGAI FAKTOR KEUNGGULAN INDUSTRI DI INDONESIA</p>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by Smk Yasbam</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
